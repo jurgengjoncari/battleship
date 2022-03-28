@@ -1,0 +1,13 @@
+we have two grids with given dimensions
+we have 5 ships for each grid
+
+at the beginning of the game, each ship is placed in their grid
+
+every board in the grid is either free or occupied. 
+each occupied grid is either hit or not. 
+
+every grid can attack the other grid by choosing a free board one after the other
+
+if all the occupied boards of a grid are hit, this grid is loser. if the same is for the other grid, then game is a draw, else, the other is the winner. 
+
+to place a boat, one can set its front and end positions, to us it doesn't matter though, or a start point and a direction. But i think the first one is more precise. but the second one is a better idea because it doesn't allow you to set the rear outside the boat's length. 

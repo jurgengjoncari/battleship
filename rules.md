@@ -1,6 +1,6 @@
 - The game is played against the machine
 - The players are unable to see each-other's grids.
-- I place ships in my gameboard
+- Each player places ships in their gameboard
 
 ### Setup
 - Each player will have a battleship game unit with five ships:
