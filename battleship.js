@@ -2,9 +2,11 @@ class Ship {
     constructor(length) {
         this.length = length
         this.state = (new Array(length)).fill(false)
-        this.hit = function (position) {
-            this.state[position] = true
-        }
+        this.hit = hit
+    }
+
+    hit(position) {
+        this.state[position] = true
     }
     
     get isSunk() {

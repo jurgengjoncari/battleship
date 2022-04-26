@@ -8,6 +8,13 @@ each occupied grid is either hit or not.
 
 every grid can attack the other grid by choosing a free board one after the other
 
-if all the occupied boards of a grid are hit, this grid is loser. if the same is for the other grid, then game is a draw, else, the other is the winner. 
+if all the occupied boards of a grid are hit, this grid is loser. if the same is for the other grid to, then game is a draw, else, this is the winner. 
 
 to place a boat, one can set its front and end positions, to us it doesn't matter though, or a start point and a direction. But i think the first one is more precise. but the second one is a better idea because it doesn't allow you to set the rear outside the boat's length. 
+
+=====
+In simple terms, here are two grids against each-other, each of which has some occupied spaces. 
+The grids take turns to choose a space from the opponent.
+Whichever guesses all the occupied spaces first, wins. 
+
+The setup of the game is each grid deciding their occupied positions. 
